@@ -8,16 +8,16 @@ def main():
     
     total = 100
 
-    num_male = int(input('How many males are in your class? '))
-    num_female = int(input('How many females are in your class? '))
+    num_m = int(input('How many males are in your class? '))
+    num_f = int(input('How many females are in your class? '))
 
-    m_perc = (num_male/total) * 100
-    f_perc = (num_female/total) * 100
+    m_perc = (num_m/total) * 100
+    f_perc = (num_f/total) * 100
     
 
     print (f'Total number of students: {total}')
-    print (f'Number of Male to Female students: {num_male}, {num_female}')
-    print (f'Male and female percentage: {m_perc:.2f} {f_perc:.2f}')
+    print (f'Number of Male to Female students: {num_m}, {num_f}')
+    print (f'Male and female percentage: {m_perc:.2f}, {f_perc:.2f}')
 
 
     """
