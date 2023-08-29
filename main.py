@@ -5,7 +5,7 @@ def main():
     Use m_perc and f_perc for your results
     ##################################################
     """
-    total = 100
+    total = int(input("How many students are in your class? "))
 
     num_m = int(input('How many males are in your class? '))
     num_f = int(input('How many females are in your class? '))
@@ -16,8 +16,8 @@ def main():
 
     print (f'Total number of students: {total}')
     print (f'Number of Male to Female students: {num_m},  {num_f}')
-    print (f'Male percentage: {m_perc:.2f}% ')
-    print (f'Female percentage: {f_perc:.2f}% ')
+    print (f'Male percentage: {m_perc:.2f} % ')
+    print (f'Female percentage: {f_perc:.2f} % ')
 
     """
     ########################################
