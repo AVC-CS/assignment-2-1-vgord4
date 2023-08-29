@@ -5,7 +5,7 @@ def main():
     Use m_perc and f_perc for your results
     ##################################################
     """
-    total = 10
+    total = 100
 
     num_m = int(input('How many males are in your class? '))
     num_f = int(input('How many females are in your class? '))
